@@ -1,5 +1,5 @@
 <?php
-require('connection.inc.php');
+
 require('top.inc.php');
 
 $sql = "SELECT * FROM tasks";
@@ -65,3 +65,4 @@ $conn->close();
     </div>
   </section>
   <script src="JS/main.js"></script>
+
